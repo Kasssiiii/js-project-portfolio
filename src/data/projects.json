@@ -1,19 +1,24 @@
 {
   "projects": [
     {
+      "key": 1,
       "name": "Business site",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "/src/assets/projects/business_site.png",
+      "alt": "a man",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://js-buss-site-2025.netlify.app/",
+      "github": "https://github.com/Kasssiiii/js-project-business-site",
+      "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam."
     },
     {
-      "name": "Weather app",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
+      "key": 2,
+      "name": "Recipe Library",
+      "image": "/src/assets/projects/recipe_library.png",
+      "alt": "a man",
       "tags": [
         "HTML5",
         "CSS3",
@@ -21,8 +26,9 @@
         "TypeScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://js-recipe-libr.netlify.app/",
+      "github": "https://github.com/Kasssiiii/js-project-recipe-library",
+      "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam."
     }
   ]
 }
