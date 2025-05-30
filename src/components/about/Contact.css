@@ -1,0 +1,88 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 16px;
+    gap: 64px;
+    background-color: var(--color-white);
+}
+
+.contact {
+    color: var(--color-foreground);
+    font-family: "Montserrat", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.contactContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.name{
+    font-size: 30px;
+    color: var(--color-foreground);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.location,
+.worldwide{
+    color: var(--color-foreground);
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contactIcons {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    gap: 45px;
+}
+
+.contactIcons a:hover {
+    svg path {
+        fill: var(--color-foreground)
+    }
+}
+
+@media (min-width:667px) and (max-width:1024px) {
+    .contact-wrapper {
+        padding: 128px 32px;
+    }
+    .location,
+.worldwide{
+    font-size: 20px;
+}
+}
+
+@media (min-width: 1025px) {
+    .contact-wrapper {
+        padding: 100px 162px 100px 161px;
+        gap: 80px;
+    }
+
+    .contact {
+        font-size: 80px;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+
+    .location,
+    .worldwide{
+        font-size: 20px;
+    }
+}
