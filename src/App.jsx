@@ -1,8 +1,18 @@
+import './App.css'
+import { Introduction } from './components/about/Introduction'
+//import { Tech } from './components/Tech'
+//import { Projects } from './components/projects/Projects'
+//import { Skills } from './components/Skills'
+//import { Contact } from './components/about/Contact'
+//import { Footer } from './components/Footer'
+
 export const App = () => {
+  
   return (
     <>
-      <h1>Portfolio</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam.</p>
+      <main>
+        <Introduction />
+      </main>
     </>
-  )
+  );
 }

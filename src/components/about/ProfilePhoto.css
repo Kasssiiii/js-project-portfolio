@@ -1,0 +1,8 @@
+.profilePhoto,
+.dev-photo {
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    aspect-ratio:1/1;
+    object-fit: cover;
+  }
