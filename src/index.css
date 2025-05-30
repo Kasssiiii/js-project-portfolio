@@ -2,3 +2,20 @@ body {
   background: pink;
   color: hotpink;
 }
+
+:root{
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --color-foreground: #2B4B27;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-background: #2B4B27;
+  text-align: center;
+  font-family: "Montserrat", sans-serif, "Hind", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
