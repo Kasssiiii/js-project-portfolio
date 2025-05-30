@@ -1,6 +1,6 @@
 import './App.css'
 import { Introduction } from './components/about/Introduction'
-//import { Tech } from './components/Tech'
+import { Tech } from './components/Tech'
 //import { Projects } from './components/projects/Projects'
 //import { Skills } from './components/Skills'
 //import { Contact } from './components/about/Contact'
@@ -12,6 +12,7 @@ export const App = () => {
     <>
       <main>
         <Introduction />
+        <Tech />
       </main>
     </>
   );
