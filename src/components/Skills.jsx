@@ -46,20 +46,34 @@ const StyledSection = styled.section`
     cursor: default;
   }
 
-  .code-head,
-  .toolbox-head,
-  .upcoming-head,
-  .more-head {
+  .skill-container h3 {
     font-size: 24px;
     font-weight: 600;
-    color: var(--color-white);
   }
 
-  .code-head:hover,
-  .toolbox-head:hover,
-  .upcoming-head:hover,
-  .more-head:hover {
-    background-color: var(--color-foreground);
+  .code-head {
+    color: var(--color-white);
+    background-color: var(--color-code);
+  }
+
+  .toolbox-head {
+    color: var(--color-white);
+    background-color: var(--color-background);
+  }
+
+  .upcoming-head {
+    color: var(--color-white);
+    background-color: var(--color-upcoming);
+  }
+
+  .more-head {
+    color: var(--color-foreground);
+    background-color: var(--color-more);
+  }
+
+  .skill-container h3:hover {
+    background-color: var(--color-test);
+    color: var(--color-code);
     cursor: default;
   }
 
