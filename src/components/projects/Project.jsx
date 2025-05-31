@@ -2,7 +2,7 @@ import { ProjectTitle } from "./ProjectTitle";
 import { Tag } from "./Tag";
 import { Demo } from "../icons/Demo";
 import { Code } from "../icons/Code";
-import { styled } from 'styled-components'
+import { styled } from "styled-components";
 
 const StyledDiv = styled.div`
   display: flex;
@@ -54,21 +54,9 @@ const StyledDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
     align-self: stretch;
-  }
-
-  .btn {
-    display: flex;
     width: 430px;
-    align-items: flex-start;
     gap: 32px;
-  }
-
-  #liveDemoBtn,
-  #viewCodeBtn {
-    border-radius: 40px;
-    background-color: var(--color-white);
   }
 
   .btn a {
@@ -77,7 +65,7 @@ const StyledDiv = styled.div`
     padding-right: 16px;
     align-items: center;
     gap: 7px;
-    color: var(--color-black);
+    color: var(--color-dark);
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -86,27 +74,24 @@ const StyledDiv = styled.div`
     text-decoration: none;
   }
 
-  #liveDemoBtn:hover {
-    background-color: var(--color-foreground);
-    border-radius: 40px;
-  }
-
-  #viewCodeBtn :hover {
-    background-color: var(--color-foreground);
-    border-radius: 40px;
-  }
-
   #liveDemoBtn,
   #viewCodeBtn {
     :hover {
-      color: var(--color-white);
+      background-color: var(--color-foreground);
+      border-radius: 40px;
+      color: var(--color-light);
+      svg path {
+        fill: var(--color-light);
+      }
     }
   }
 
   #liveDemoBtn,
   #viewCodeBtn {
-    :hover svg path {
-      fill: var(--color-white);
+    border-radius: 40px;
+    background-color: var(--color-light);
+    svg path {
+      fill: var(--color-dark);
     }
   }
 
@@ -197,12 +182,12 @@ export const Project = ({
   demoLink,
   codeLink,
   image,
-  alt
+  alt,
 }) => {
   const title = projectName.replaceAll("-", " ");
   return (
     <StyledDiv aria-label="Previous projects' information">
-      <img src={image} alt={alt} className="projectSnippet"/>
+      <img src={image} alt={alt} className="projectSnippet" />
       <div className="detail-box">
         <div className="detail" aria-label="Previous projects' information">
           <ProjectTitle title={title} />
