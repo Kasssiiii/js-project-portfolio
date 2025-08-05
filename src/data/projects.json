@@ -3,7 +3,7 @@
     {
       "key": 1,
       "name": "Business site",
-      "image": "/src/assets/projects/business_site.png",
+      "image": "/projects/business_site.png",
       "alt": "a man",
       "tags": [
         "HTML5",
@@ -17,7 +17,7 @@
     {
       "key": 2,
       "name": "Recipe Library",
-      "image": "/src/assets/projects/recipe_library.png",
+      "image": "/projects/recipe_library.png",
       "alt": "a man",
       "tags": [
         "HTML5",

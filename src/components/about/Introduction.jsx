@@ -1,5 +1,5 @@
 //import './Introduction.css'
-import arrow from "../../assets/arrowdown.svg";
+import arrow from "/arrowdown.svg";
 import { ProfilePhoto } from "./ProfilePhoto";
 import { styled } from "styled-components";
 

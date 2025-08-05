@@ -1,4 +1,4 @@
-import profilePhotoFile from "../../assets/profilePhoto.jpg"
+import profilePhotoFile from "/profilePhoto.jpg"
 import { styled } from 'styled-components'
 
 const StyledImg = styled.img`
