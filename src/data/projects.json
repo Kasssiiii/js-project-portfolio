@@ -4,7 +4,7 @@
       "key": 1,
       "name": "Business site",
       "image": "/projects/business_site.png",
-      "alt": "a man",
+      "alt": "project's business site screenshot",
       "tags": [
         "HTML5",
         "CSS3",
@@ -12,23 +12,82 @@
       ],
       "netlify": "https://js-buss-site-2025.netlify.app/",
       "github": "https://github.com/Kasssiiii/js-project-business-site",
-      "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam."
+      "about": "A simple, static website listing properties for rent. Built with vanilla HTML, CSS, and JavaScript, this project showcases rental listings and provides basic interactivity for browsing."
     },
     {
       "key": 2,
       "name": "Recipe Library",
       "image": "/projects/recipe_library.png",
-      "alt": "a man",
+      "alt": "project's recipe library screenshot",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
-        "TypeScript",
         "APIs"
       ],
       "netlify": "https://js-recipe-libr.netlify.app/",
       "github": "https://github.com/Kasssiiii/js-project-recipe-library",
-      "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam."
+      "about": "A browser for cooking recipes using data from Spoonacular API. The app allows users to filter, sort, and explore sample recipes using vanilla HTML, CSS, and JavaScript."
+    },
+    {
+      "key": 3,
+      "name": "Weather App",
+      "image": "/projects/weather_app.png",
+      "alt": "weather app screenshot",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "APIs"
+      ],
+      "netlify": "https://nordicweatherapp.netlify.app/",
+      "github": "https://github.com/JasminHed/newjs-project-weather-app",
+      "about": "A modern weather application that provides current conditions and a 4-day forecast for cities worldwide. Built using OpenWeatherMap API and JavaScript, this project helped me learn how to work with external APIs, handle JSON data, manage loading/error states, and create a clean responsive layout."
+    },
+    {
+      "key": 4,
+      "name": "Accessibility Site",
+      "image": "/projects/accessibility_site.png",
+      "alt": "accessibility site screenshot",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Accessibility"
+      ],
+      "netlify": "https://teamwind1.netlify.app/",
+      "github": "https://github.com/Bianka2112/js-project-accessibility",
+      "about": "A website focused on demonstrating best practices in web accessibility. The project includes semantic HTML, keyboard navigation, proper contrast ratios, and ARIA roles to ensure inclusive user experience. Also features a quiz about web accessibility."
+    },
+    {
+      "key": 5,
+      "name": "Movie Browser",
+      "image": "/projects/movie_browser.png",
+      "alt": "movie browser screenshot",
+      "tags": [
+        "React",
+        "JavaScript",
+        "APIs",
+        "CSS3"
+      ],
+      "netlify": "https://movies-js-kasia.netlify.app//",
+      "github": "https://github.com/Kasssiiii/js-project-movies",
+      "about": "A movie browsing app using data from The Movie Database (TMDb) API. Built with React, the app displays currently playing movies in cinemas and allows users to explore popular titles with a responsive, modern UI."
+    },
+    {
+      "key": 6,
+      "name": "Happy Thoughts",
+      "image": "/projects/happy_thoughts.png",
+      "alt": "happy thoughts screenshot",
+      "tags": [
+        "React",
+        "JavaScript",
+        "CSS3",
+        "APIs"
+      ],
+      "netlify": "https://happy-thoughts-js.netlify.app/",
+      "github": "https://github.com/Kasssiiii/js-project-happy-thoughts",
+      "about": "A Twitter-style web app for posting positive messages. Users can sign in and share happy thoughts publicly. Built with React and a custom API, the project focuses on state management, forms, and real-time updates."
     }
   ]
 }
