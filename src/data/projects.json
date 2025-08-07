@@ -12,7 +12,7 @@
       ],
       "netlify": "https://js-buss-site-2025.netlify.app/",
       "github": "https://github.com/Kasssiiii/js-project-business-site",
-      "about": "A simple, static website listing properties for rent. Built with vanilla HTML, CSS, and JavaScript, this project showcases rental listings and provides basic interactivity for browsing."
+      "about": "A static website listing properties for rent. Built with vanilla HTML, CSS, and JavaScript, this project showcases rental listings and provides basic interactivity for browsing."
     },
     {
       "key": 2,
@@ -39,10 +39,11 @@
         "CSS3",
         "JavaScript",
         "APIs"
+        "Team project"
       ],
       "netlify": "https://nordicweatherapp.netlify.app/",
       "github": "https://github.com/JasminHed/newjs-project-weather-app",
-      "about": "A modern weather application that provides current conditions and a 4-day forecast for cities worldwide. Built using OpenWeatherMap API and JavaScript, this project helped me learn how to work with external APIs, handle JSON data, manage loading/error states, and create a clean responsive layout."
+      "about": "A modern weather application that provides current conditions and a 4-day forecast for cities worldwide. Built using OpenWeatherMap API and JavaScript, this group project helped me learn how to work with external APIs, handle JSON data, manage loading/error states, and create a clean responsive layout."
     },
     {
       "key": 4,
@@ -54,10 +55,11 @@
         "CSS3",
         "JavaScript",
         "Accessibility"
+        "Team project"
       ],
       "netlify": "https://teamwind1.netlify.app/",
       "github": "https://github.com/Bianka2112/js-project-accessibility",
-      "about": "A website focused on demonstrating best practices in web accessibility. The project includes semantic HTML, keyboard navigation, proper contrast ratios, and ARIA roles to ensure inclusive user experience. Also features a quiz about web accessibility."
+      "about": "A website focused on demonstrating best practices in web accessibility. This group project includes semantic HTML, keyboard navigation, proper contrast ratios, and ARIA roles to ensure inclusive user experience. Also features a quiz about web accessibility."
     },
     {
       "key": 5,
