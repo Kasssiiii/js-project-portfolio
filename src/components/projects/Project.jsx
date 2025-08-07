@@ -13,7 +13,7 @@ const StyledDiv = styled.div`
   .projectSnippet {
     width: 343px;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: top;
     border-radius: 13px;
   }
@@ -187,7 +187,9 @@ export const Project = ({
   const title = projectName.replaceAll("-", " ");
   return (
     <StyledDiv aria-label="Previous projects' information">
-      <img src={image} alt={alt} className="projectSnippet" />
+      <div aria-label="Project image">
+        <img src={image} alt={alt} className="projectSnippet" />
+      </div>
       <div className="detail-box">
         <div className="detail" aria-label="Previous projects' information">
           <ProjectTitle title={title} />
